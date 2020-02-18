@@ -6,10 +6,11 @@
   "globals": {
     "d3": false
   },
-  "extends": ["eslint:recommended", "plugin:vue/recommended"],
+  "extends":
+    ["eslint:recommended"]
+  ,
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true,
       "experimentalObjectRestSpread": true
     }
   },
