@@ -8,7 +8,7 @@ CYAN='\033[00;36m'
 YELLOW='\033[00;33m'
 
 function initRollup {
-    echo -n "${CYAN}What kind of project, dataviz or static web? 🤔 "
+    echo -n "${LRED}?${LRED} ${CYAN}What kind of project, dataviz or static web? 🤔 "
 
     function static {
       mkdir css src js img &&
@@ -53,14 +53,14 @@ function initRollup {
     read -r answer
         if echo "$answer" | grep -iq "^s" ;
     then
-        echo -n "${PURPLE}Choose a name for your project: ${YELLOW}"
+        echo -n "${LRED}?${LRED} ${PURPLE}Choose a name for your project: ${YELLOW}"
         read -r var_name &&
         mkdir "$var_name" &&
         cd "$var_name" &&
         echo -e "${GREEN}Here we go again! 🤓"
         static
     else
-        echo -n "${PURPLE}Choose a name for your project: ${YELLOW}"
+        echo -n "${LRED}?${LRED} ${PURPLE}Choose a name for your project: ${YELLOW}"
         read -r var_name &&
         mkdir "$var_name" &&
         cd "$var_name" &&

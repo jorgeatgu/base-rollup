@@ -58,15 +58,9 @@ const plugins = [
 export default [{
     input: paths.js + '/index.js',
     output: [{
-        file: paths.distJs + '/index.js',
-        format: 'esm'
-      },
-      {
-        file: paths.distJs + '/index.min.js',
-        format: 'iife',
-        name: 'version'
-      }
-    ],
+      file: paths.distJs + '/index.js',
+      format: 'cjs'
+    }],
     plugins
   },
   {

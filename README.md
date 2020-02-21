@@ -1,5 +1,5 @@
 
-# ROLLUP BASE D3
+# Base Rollup
 
 Starter kit for data-viz or static web projects. 
 The starter kit is ready to work with a reduced version of d3 based on importing only the [necessary modules](https://github.com/jorgeatgu/base-rollup-d3/blob/master/src/js/d3.js).
