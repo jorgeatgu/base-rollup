@@ -2,7 +2,15 @@
 # Base Rollup
 
 Starter kit for data-viz or static web projects. 
+
+At first, the script allows you to choose between a static or data project. The difference is that the data project has built-in d3, nothing more. Then select the name of your project folder, and you will have little scaffolding ready to work.
+
 The starter kit is ready to work with a reduced version of d3 based on importing only the [necessary modules](https://github.com/jorgeatgu/base-rollup-d3/blob/master/src/js/d3.js).
+
+
+## DEMO
+
+<script id="asciicast-TbKlAZz9rGNnjyEDjdeT67Dhk" src="https://asciinema.org/a/TbKlAZz9rGNnjyEDjdeT67Dhk.js" async></script>
 
 ## Getting Started
 
