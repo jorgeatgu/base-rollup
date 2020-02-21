@@ -13,8 +13,6 @@ The starter kit is ready to work with a reduced version of d3 based on importing
 
 [![asciicast](https://asciinema.org/a/170142.png)](https://asciinema.org/a/TbKlAZz9rGNnjyEDjdeT67Dhk)
 
-<script id="asciicast-TbKlAZz9rGNnjyEDjdeT67Dhk" src="https://asciinema.org/a/TbKlAZz9rGNnjyEDjdeT67Dhk.js" async></script>
-
 ## Getting Started
 
 ```
