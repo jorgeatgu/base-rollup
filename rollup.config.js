@@ -66,8 +66,7 @@ export default [{
   {
     input: paths.css + '/styles.css',
     output: {
-      file: paths.distCss + '/style.css',
-      format: 'es'
+      file: paths.distCss + '/style.css'
     },
     plugins: [
       stylelint(),
