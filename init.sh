@@ -12,7 +12,8 @@ function initRollup {
 
     function static {
       mkdir css src js img &&
-      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/master/{.stylelintrc,.eslintrc,.gitignore,.stylelintignore,package.json,rollup.config.js,index.html}" &&
+      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/static/master/{package.json,rollup.config.js,index.html}" &&
+      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/master/{.stylelintrc,.eslintrc,.gitignore,.stylelintignore,.prettierrc.json}" &&
       cd src &&
       mkdir css img js &&
       cd css &&
@@ -20,9 +21,6 @@ function initRollup {
       cd ../js &&
       touch index.js &&
       cd ../.. &&
-      git init &&
-      git add . &&
-      git commit -m 'init' &&
       echo -e "${LRED}Wait a minute...install node modules... 🚨🚨${RED}" &&
       yarn install &&
       echo -e "${GREEN}Mission accomplished C&C! \U0001f913\n" &&
@@ -32,13 +30,14 @@ function initRollup {
 
     function dataviz {
       mkdir css src js img &&
-      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup-d3/master/{.stylelintrc,.eslintrc,.gitignore,.stylelintignore,package.json,rollup.config.js,index.html}" &&
+      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/dataviz/master/{package.json,rollup.config.js,index.html}" &&
+      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/master/{.stylelintrc,.eslintrc,.gitignore,.stylelintignore,.prettierrc.json}" &&
       cd src &&
       mkdir css img js &&
       cd css &&
-      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup-d3/master/{_variables.css,styles.css}" &&
+      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/master/{_variables.css,styles.css}" &&
       cd ../js &&
-      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup-d3/master/{d3.js,index.js}" &&
+      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/master/{d3.js,index.js}" &&
       cd ../.. &&
       git init &&
       git add . &&
