@@ -2,7 +2,7 @@
 import babel from 'rollup-plugin-babel';
 import { eslint } from 'rollup-plugin-eslint';
 import { terser } from 'rollup-plugin-terser';
-import commonjs from 'rollup-plugin-commonjs';
+import commonjs from '@rollup/plugin-commonjs';
 
 // ------ postCSS
 import postcss from 'rollup-plugin-postcss';
@@ -14,7 +14,7 @@ import nested from 'postcss-nested';
 import stylelint from 'rollup-plugin-stylelint';
 
 // ------ global
-import resolve from 'rollup-plugin-node-resolve';
+import resolve from '@rollup/plugin-node-resolve';
 import browsersync from 'rollup-plugin-browsersync';
 
 const paths = {

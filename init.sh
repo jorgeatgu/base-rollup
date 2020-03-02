@@ -12,7 +12,7 @@ function initRollup {
 
     function static {
       mkdir css src js img &&
-      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/static/master/{package.json,rollup.config.js,index.html}" &&
+      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/master/static/{package.json,rollup.config.js,index.html}" &&
       curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/master/{.stylelintrc,.eslintrc,.gitignore,.stylelintignore,.prettierrc.json}" &&
       cd src &&
       mkdir css img js &&
@@ -30,7 +30,7 @@ function initRollup {
 
     function dataviz {
       mkdir css src js img &&
-      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/dataviz/master/{package.json,rollup.config.js,index.html}" &&
+      curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/master/dataviz/{package.json,rollup.config.js,index.html}" &&
       curl -O "https://raw.githubusercontent.com/jorgeatgu/base-rollup/master/{.stylelintrc,.eslintrc,.gitignore,.stylelintignore,.prettierrc.json}" &&
       cd src &&
       mkdir css img js &&

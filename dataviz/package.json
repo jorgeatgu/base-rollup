@@ -25,11 +25,13 @@
   "dependencies": {
     "@babel/core": "7.8.6",
     "@babel/preset-env": "7.8.6",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
     "d3-array": "^2.4.0",
     "d3-axis": "^1.0.12",
     "d3-ease": "^1.0.6",
-    "d3-format": "1.4.3",
     "d3-fetch": "^1.1.2",
+    "d3-format": "1.4.3",
     "d3-scale": "^3.2.0",
     "d3-selection": "^1.4.1",
     "d3-time-format": "2.2.3",
@@ -46,12 +48,10 @@
     "rollup": "1.32.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-browsersync": "^1.0.0",
-    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-eslint": "7.0.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "2.1.1",
     "rollup-plugin-stylelint": "^1.0.0",
     "rollup-plugin-terser": "5.2.0",
-    "rollup-plugin-postcss": "2.1.1",
     "stylelint": "13.2.0"
   }
 }
