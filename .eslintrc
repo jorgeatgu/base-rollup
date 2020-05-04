@@ -23,6 +23,7 @@
       "max": 2,
       "maxEOF": 1
     }],
+    "space-before-function-paren": ["error", "none"],
     "no-multi-spaces": "error",
     "keyword-spacing": ["error",
     {
